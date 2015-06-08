@@ -16,4 +16,17 @@
   -->
 
 <Context>
+	<Resource name="jdbc/dashboardDB2" 
+		auth="Container" 
+		type="javax.sql.DataSource"
+        maxActive="20"
+		maxIdle="10"
+		maxWait="10000"
+        username="${cloud.services.mydb.connection.user}"
+		password="${cloud.services.mydb.connection.password}"
+		driverClassName="com.mysql.jdbc.Driver"
+		removeAbandoned="true"
+        removeAbandonedTimeout="90"
+        logAbandoned="true"
+        url="${cloud.services.mydb.connection.url"/>
 </Context>
