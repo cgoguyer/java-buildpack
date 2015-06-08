@@ -28,5 +28,5 @@
 		removeAbandoned="true"
         removeAbandonedTimeout="90"
         logAbandoned="true"
-        url="${cloud.services.mydb.connection.url"/>
+        url="jdbc:mysql://${cloud.services.mydb.connection.host}:${cloud.services.mydb.connection.port}/${cloud.services.mydb.connection.name} />
 </Context>
