@@ -22,11 +22,11 @@
         maxActive="20"
 		maxIdle="10"
 		maxWait="10000"
-        username="${cloud.services.mydb.connection.user}"
-		password="${cloud.services.mydb.connection.password}"
+        username="${cloud.services.mysql-dashboard2.connection.user}"
+		password="${cloud.services.mysql-dashboard2.connection.password}"
 		driverClassName="com.mysql.jdbc.Driver"
 		removeAbandoned="true"
         removeAbandonedTimeout="90"
         logAbandoned="true"
-        url="jdbc:mysql://${cloud.services.mydb.connection.host}:${cloud.services.mydb.connection.port}/${cloud.services.mydb.connection.name} />
+        url="jdbc:mysql://${cloud.services.mysql-dashboard2.connection.host}:${cloud.services.mysql-dashboard2.connection.port}/${cloud.services.mysql-dashboard2.connection.name} />
 </Context>
