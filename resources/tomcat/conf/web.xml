@@ -1,22 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
-<!--
-  This is an appropriate place for user modifications to the web.xml.  
-  Entries from this file will be combined with the default WaveMaker web.xml;
-  the order is not guaranteed.
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0">
 
-  Content changes must go between the two tags below.
--->
-<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
-        version="2.4">
-        
-    <resource-ref>
+	<resource-ref>
       <description>DB Connection</description>
-      <res-ref-name>jdbc/dashboardDB2</res-ref-name>
+      <res-ref-name>jdbc/dashboardDB</res-ref-name>
       <res-type>javax.sql.DataSource</res-type>
       <res-auth>Container</res-auth>
-    </resource-ref>
-  
+	</resource-ref>
+
 </web-app>
