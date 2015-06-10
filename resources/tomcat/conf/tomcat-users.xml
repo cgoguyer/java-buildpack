@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<tomcat-users xmlns="http://tomcat.apache.org/xml"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://tomcat.apache.org/xml tomcat-users.xsd"
+              version="1.0">
+
+	<role rolename="admin"/>
+    <role rolename="user"/>
+    <user username="root"   password="root"  roles="admin"/>
+    <user username="admin"  password="admin"  roles="admin"/>
+    <user username="demo"   password="demo"  roles="user"/>
+			  
+</tomcat-users>
