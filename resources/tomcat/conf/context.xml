@@ -28,6 +28,6 @@
 		removeAbandoned="true"
         removeAbandonedTimeout="90"
         logAbandoned="true"
-        url="jdbc:mysql://${cloud.services.mysql-dashboard2.connection.host}:${cloud.services.mysql-dashboard2.connection.port}/${cloud.services.mysql-dashboard2.connection.name}"/>
+        url="jdbc:mysql://${cloud.services.mysql-dashboard2.connection.host}:3307/${cloud.services.mysql-dashboard2.connection.name}"/>
 
 </Context>
