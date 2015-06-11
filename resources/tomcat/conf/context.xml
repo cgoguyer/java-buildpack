@@ -24,7 +24,7 @@
 		maxWait="10000"
         username="${cloud.services.mysql-dashboard2.connection.user}"
 		password="${cloud.services.mysql-dashboard2.connection.password}"
-		driverClassName="com.mysql.jdbc.Driver"
+		driverClassName="org.mariadb.jdbc.Driver"
 		removeAbandoned="true"
         removeAbandonedTimeout="90"
         logAbandoned="true"
